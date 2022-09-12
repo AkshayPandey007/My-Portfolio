@@ -6,9 +6,20 @@ import tic_tac_toe from "../assets/svg/projects/tic_tac_toe.png";
 import SSENCE from "../assets/svg/projects/SSENCE.png";
 import Weather_logo from "../assets/svg/projects/Weather_logo.jpeg"
 import Dot_and_key from "../assets/svg/projects/Dot_and_key.png"
+import Bluemercury from "../assets/svg/projects/Bluemercury.jpg"
 export const projectsData = [
   {
     id: 1,
+    projectName: "Bluemercury Clone",
+    projectDesc:
+      "This project is a clone of Bluemercury.com completed in collabration of 5 members within 5 days",
+    tags: ["React","Redux","JavaScript", "CSS", "ChakraUI", "HTML" ,"MongoDB"],
+    code: "https://github.com/AkshayPandey007/affable-scissors-7552",
+    demo: " https://akshaypandey-bluemercury.vercel.app/",
+    image: Bluemercury,
+  },
+  {
+    id: 2,
     projectName: "DOT & Key Clone",
     projectDesc:
       "This project is a clone of E-commerce completed in collabration of 6 members within 5 days",
@@ -18,7 +29,7 @@ export const projectsData = [
     image: Dot_and_key,
   },
   {
-    id: 2,
+    id: 3,
     projectName: "SSENSE-CLONE",
     projectDesc:
       "This project is a clone of E-commerce website using HTML,CSS,JS,Bootstrap in collabration of 5 members within 5 days",
@@ -28,7 +39,7 @@ export const projectsData = [
     image: SSENCE,
   },
   {
-    id: 3,
+    id: 4,
     projectName: "Weather App",
     projectDesc:
       "Weather forecast systems and application predict weather with google map.",
@@ -38,7 +49,7 @@ export const projectsData = [
     image: Weather_logo,
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Tic-Tac-Toe",
     projectDesc:
       "Enjoy Tic-Tac-Toe Game",
@@ -48,7 +59,7 @@ export const projectsData = [
     image: tic_tac_toe,
   },
   {
-    id: 5,
+    id: 6,
     projectName: "Youtube ",
     projectDesc:
       "This is a mini clone / work of youtube",

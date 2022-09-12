@@ -120,7 +120,7 @@ function Landing() {
           style={{ backgroundColor: theme.secondary }}
         >
           <div className="lcr--content" style={{ color: theme.tertiary }}>
-            <h6 style={{fontSize:"26px" , marginTop:"65px"}}>{headerData.title}</h6>
+            <h6 style={{color:"red" , marginTop:"20px"}}>{headerData.title}</h6>
             <h1>{headerData.name}</h1>
             <p>{headerData.desciption}</p>
 

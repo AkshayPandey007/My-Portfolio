@@ -5,7 +5,10 @@ export const skillsData = [
   "React",
   "Git",
   "MaterialUI",
-  "typescript"
+  "typescript",
+   "Node",
+   "MongoDB",
+   "Express",
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
